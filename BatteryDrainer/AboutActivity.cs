@@ -27,7 +27,7 @@ namespace DK.Ostebaronen.Droid.BatteryDrainer
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            if (item.ItemId == Resource.Id.home || item.ItemId == Android.Resource.Id.Home)
+            if (item.ItemId == Resource.Id.home)
             {
                 NavUtils.NavigateUpFromSameTask(this);
                 return true;
