@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" 
-          package="dk.ostebaronen.droid.batterydrainer" android:versionCode="2" android:versionName="1.0.0">
+          package="dk.ostebaronen.droid.batterydrainer" android:versionCode="3" android:versionName="1.0.0">
 	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18" />
 	<uses-feature android:name="android.hardware.bluetooth" required="false" />
 	<uses-feature android:name="android.hardware.wifi" required="false" />
@@ -10,20 +10,6 @@
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
-  <compatible-screens>
-    <!-- all small size screens -->
-    <screen android:screenSize="small" android:screenDensity="mdpi" />
-    <screen android:screenSize="small" android:screenDensity="hdpi" />
-    <screen android:screenSize="small" android:screenDensity="xhdpi" />
-    <!-- all normal size screens -->
-    <screen android:screenSize="normal" android:screenDensity="mdpi" />
-    <screen android:screenSize="normal" android:screenDensity="hdpi" />
-    <screen android:screenSize="normal" android:screenDensity="xhdpi" />
-    <!-- all large size screens -->
-    <screen android:screenSize="large" android:screenDensity="mdpi" />
-    <screen android:screenSize="large" android:screenDensity="hdpi" />
-    <screen android:screenSize="large" android:screenDensity="xhdpi" />
-  </compatible-screens>
 	<application android:label="BatteryDrainer" android:theme="@style/Theme.Batterydrainer" 
                android:icon="@drawable/ic_launcher"></application>
 </manifest>
