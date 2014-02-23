@@ -15,17 +15,14 @@
     <screen android:screenSize="small" android:screenDensity="mdpi" />
     <screen android:screenSize="small" android:screenDensity="hdpi" />
     <screen android:screenSize="small" android:screenDensity="xhdpi" />
-    <screen android:screenSize="small" android:screenDensity="xxhdpi" />
     <!-- all normal size screens -->
     <screen android:screenSize="normal" android:screenDensity="mdpi" />
     <screen android:screenSize="normal" android:screenDensity="hdpi" />
     <screen android:screenSize="normal" android:screenDensity="xhdpi" />
-    <screen android:screenSize="normal" android:screenDensity="xxhdpi" />
     <!-- all large size screens -->
     <screen android:screenSize="large" android:screenDensity="mdpi" />
     <screen android:screenSize="large" android:screenDensity="hdpi" />
     <screen android:screenSize="large" android:screenDensity="xhdpi" />
-    <screen android:screenSize="large" android:screenDensity="xxhdpi" />
   </compatible-screens>
 	<application android:label="BatteryDrainer" android:theme="@style/Theme.Batterydrainer" 
                android:icon="@drawable/ic_launcher"></application>
