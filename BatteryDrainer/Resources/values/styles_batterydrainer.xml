@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Batterydrainer" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_batterydrainer</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Batterydrainer</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Batterydrainer</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Batterydrainer</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Batterydrainer</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_batterydrainer</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_batterydrainer</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Batterydrainer</item>
+        <item name="android:checkboxStyle">@style/CheckBox.BatteryDrainer</item>
+        <item name="android:buttonStyleToggle">@style/Toggle.BatteryDrainer</item>
+    </style>
+
+    <style name="ActionBar.Solid.Batterydrainer" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_batterydrainer</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_batterydrainer</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_batterydrainer</item>
+        <item name="progressBarStyle">@style/ProgressBar.Batterydrainer</item>
+        <item name="titleTextStyle">@style/ActionBar.TitleTextStyle.Batterydrainer</item>
+        <item name="subtitleTextStyle">@style/ActionBar.TitleTextStyle.Batterydrainer</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Batterydrainer" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_batterydrainer</item>
+        <item name="progressBarStyle">@style/ProgressBar.Batterydrainer</item>
+    </style>
+	
+    <style name="PopupMenu.Batterydrainer" parent="@style/Widget.AppCompat.Light.PopupMenu">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_batterydrainer</item>	
+    </style>
+	
+    <style name="DropDownListView.Batterydrainer" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_batterydrainer</item>
+    </style>
+	
+    <style name="DropDownNav.Batterydrainer" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_batterydrainer</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_batterydrainer</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_batterydrainer</item>
+    </style>
+    
+    <style name="ProgressBar.Batterydrainer" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_batterydrainer</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Batterydrainer" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_batterydrainer</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Batterydrainer.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Batterydrainer</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Batterydrainer</item>
+    </style>
+
+    <style name="ActionBar.TitleTextStyle.Batterydrainer" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+      <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+  <style name="CheckBox.BatteryDrainer" parent="android:Widget.CompoundButton.CheckBox">
+    <item name="android:button">@drawable/batterydrainer_btn_check_holo_light</item>
+  </style>
+
+  <style name="Toggle.BatteryDrainer" parent="android:Widget.Button.Toggle">
+    <item name="android:background">@drawable/batterydrainer_btn_toggle_holo_light</item>
+    <item name="android:minHeight">48dip</item>
+    <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

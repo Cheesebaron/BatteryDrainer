@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="actionbar_text_color">#ffffff</color>
+  <color name="batterydrainer_color">#ff4444</color>
+</resources>

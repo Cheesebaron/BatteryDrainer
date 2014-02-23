@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">JuiceDrainer</string>
+  <string name="description">This app drains your battery using the device features below. Note: enabling vibration can damange the device, use at own risk.</string>
+  <string name="description_land">This app drains your battery using the device features seen at the left of the screen. Note: enabling vibration can damange the device, use at own risk.</string>
+  <string name="cpu_label">CPU Load</string>
+  <string name="bt_label">Bluetooth</string>
+  <string name="wifi_label">Wi-Fi</string>
+  <string name="bright_label">Brightness</string>
+  <string name="vibrate_label">Vibrate</string>
+  <string name="start">Drain</string>
+  <string name="stop">Stop</string>
+  <string name="battery_level_label">Battery Level</string>
+  <string name="battery_temp_label">Battery Temperature</string>
+  <string name="battery_health_label">Battery Health</string>
+  <string name="battery_voltage_label">Battery Voltage</string>
+  
+  <string name="about">About</string>
+  <string name="legal_label">Legal</string>
+  <string name="legal_content">Icons and styles for this app, were generated with <a href="https://code.google.com/p/android-ui-utils/">Android Asset Studio</a> and are subject to the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 BY</a> license.
+  </string>
+  <string name="disclaimer_label">Disclamer</string>
+  <string name="disclaimer_content">Use this application at own risk, using this application could potentially damage your device. The author of this app is not responsible for any damage caused by using this application.</string>
+</resources>

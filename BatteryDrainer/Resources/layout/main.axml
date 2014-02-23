@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <TextView
+        android:id="@+id/description_text"
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <CheckBox
+        android:text="@string/cpu_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpu_checkbox"
+        android:layout_below="@+id/description_text" />
+    <CheckBox
+        android:text="@string/bt_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cpu_checkbox"
+        android:id="@+id/bt_checkbox" />
+    <CheckBox
+        android:text="@string/wifi_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_checkbox"
+        android:id="@+id/wifi_checkbox" />
+    <CheckBox
+        android:text="@string/bright_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wifi_checkbox"
+        android:id="@+id/bright_checkbox" />
+    <CheckBox
+        android:text="@string/vibrate_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bright_checkbox"
+        android:id="@+id/vibrate_checkbox" />
+    <TextView
+        android:text="@string/battery_temp_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vibrate_checkbox"
+        android:id="@+id/battery_temp_label_text" />
+    <TextView
+        android:text="NA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery_temp_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/battery_temp_label_text" />
+    <TextView
+        android:text="@string/battery_level_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battery_temp_label_text"
+        android:id="@+id/battery_level_label_text" />
+    <TextView
+        android:text="NA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery_level_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/battery_level_label_text" />
+    <TextView
+        android:text="@string/battery_health_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battery_level_label_text"
+        android:id="@+id/battery_health_label_text" />
+    <TextView
+        android:text="NA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery_health_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/battery_health_label_text" />
+    <TextView
+        android:text="@string/battery_voltage_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battery_health_label_text"
+        android:id="@+id/battery_voltage_label_text" />
+    <TextView
+        android:text="NA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery_voltage_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/battery_voltage_label_text" />
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/start_stop_button"
+        android:textOn="@string/stop"
+        android:textOff="@string/start" />
+</RelativeLayout>
