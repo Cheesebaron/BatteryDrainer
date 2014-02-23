@@ -109,3 +109,4 @@ UpgradeLog*.XML
 
 # Xamarin Components
 [Cc]omponents
+*.apk
