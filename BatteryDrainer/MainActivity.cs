@@ -104,7 +104,10 @@ namespace DK.Ostebaronen.Droid.BatteryDrainer
         {
             base.OnPause();
             if (_batteryReceiver != null)
-                UnregisterReceiver(_batteryReceiver);
+            {
+                try { UnregisterReceiver(_batteryReceiver); }
+                catch { }
+            }
             Stop();
         }
 
@@ -342,7 +345,10 @@ namespace DK.Ostebaronen.Droid.BatteryDrainer
                 wifiManager.StartScan();
 
                 if (!_wifiScanning)
-                    UnregisterReceiver(_wifiReceiver);
+                {
+                    try { UnregisterReceiver(_wifiReceiver); }
+                    catch { }
+                }
             }};
             RegisterReceiver(_wifiReceiver, new IntentFilter(WifiManager.ScanResultsAvailableAction));
             wifiManager.StartScan();
